@@ -1,0 +1,3 @@
+- [x] Pesquisar a loja oficial e definir o conteúdo simulado.
+- [x] Criar página responsiva com catálogo e sacola de demonstração.
+- [x] Listar requisitos funcionais, não funcionais e evidências de maturidade.
