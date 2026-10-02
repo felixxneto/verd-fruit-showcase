@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState, type FormEvent } from "react";
+import { useMemo, useState, type FormEvent, type ReactNode } from "react";
 import { ArrowLeft, ArrowRight, CheckCircle2, ChevronDown, Leaf, Menu, Minus, Plus, Search, ShoppingBag, Sparkles, Trash2, Truck, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import hero from "@/assets/verdfrut-hero.jpg";
@@ -158,6 +158,6 @@ function Index() {
   </div>;
 }
 
-function Summary({ subtotal, shipping, total, children }: { subtotal: number; shipping: number; total: number; children: React.ReactNode }) {
+function Summary({ subtotal, shipping, total, children }: { subtotal: number; shipping: number; total: number; children: ReactNode }) {
   return <div className="border-t border-border px-6 py-5 text-sm"><div className="flex justify-between text-muted-foreground"><span>Subtotal</span><span>{formatPrice(subtotal)}</span></div><div className="mt-1 flex justify-between text-muted-foreground"><span>Entrega</span><span>{shipping === 0 ? "Grátis" : formatPrice(shipping)}</span></div><div className="mt-3 flex justify-between font-display text-lg font-bold text-primary"><span>Total</span><span>{formatPrice(total)}</span></div>{children}</div>;
 }
