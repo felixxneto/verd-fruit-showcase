@@ -1,3 +1,4 @@
 - [x] Pesquisar a loja oficial e definir o conteúdo simulado.
-- [x] Criar página responsiva com catálogo e sacola de demonstração.
-- [x] Listar requisitos funcionais, não funcionais e evidências de maturidade.
+- [x] Criar página responsiva com catálogo e sacola.
+- [x] Tornar o site funcional (sacola completa, frete, finalização e confirmação).
+- [x] Mover requisitos e maturidade para o README e limpar o site.
